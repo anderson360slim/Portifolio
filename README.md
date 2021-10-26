@@ -7,6 +7,6 @@ O controle das Tarefas desse projeto será realizada no GitHub
 ## Icons
 
 :package: novas funcionalidades
-:up: Autulaização
-:beatle: Correção de bugs
-:checked flag: Release
+:arrow_up::arrow_up: Autulaização
+:beetle: Correção de bugs
+:checkered_flag: Release
