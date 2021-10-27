@@ -38,6 +38,11 @@
     justify-content: space-between;
     padding: 0.1rem;
     cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.oculto .hamburguer {
+    right: 15rem;
 }
 
 .line {
@@ -45,6 +50,52 @@
     height: .2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: .1rem .1rem 3px #000;
+    transition: all ease-in-out 0.2s;
+}
+
+.oculto #line1 {
+    transform: rotate(45deg) translate(1.1rem, 1rem);
+}
+
+.oculto #line2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.oculto #line3 {
+    transform: rotate(-45deg) translate(-0.1rem, 0rem);
+    ;
+}
+
+.hamburguer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: #a044ff;
+    position: absolute;
+    left: 4rem;
+    top: 0.9rem;
+    color: #fff;
+    font-family: var(--fonte-action);
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.hamburguer span::before {
+    content: "";
+    position: absolute;
+    border-right: 0.5rem solid #a044ff;
+    border-top: 0.5rem solid transparent;
+    border-left: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid transparent;
+    left: -1rem;
+}
+
+.oculto .hamburguer:hover span {
+    opacity: 1;
 }
 
 header {
@@ -147,8 +198,13 @@ header {
     background-color: #ffff;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -20rem;
     z-index: 50;
+    transition: all ease-in-out 0.5s;
+}
+
+.oculto .sidebar {
+    right: 0rem;
 }
 
 .menu {
@@ -181,11 +237,16 @@ header {
     left: 0;
     bottom: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .social-media i {
     font-size: 1.8rem;
-    color: #6a3093;
+    color: #555;
     text-shadow: 0.1rem 0.1rem 5px rgb(0.0.0);
+    transition: color 1s;
+}
+
+.social-media i:hover {
+    color: #a044ff;
 }
