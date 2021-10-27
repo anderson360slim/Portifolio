@@ -321,3 +321,14 @@ header {
     font-family: var(--fonte-secundary);
     padding: 1rem;
 }
+
+.conhecimentos-imagem-wapper {
+    grid-column: 7/10;
+    grid-row: 3/6;
+    width: 100%;
+}
+
+.conhecimentos-imagem-wapper img {
+    width: 100%;
+    height: 100%;
+}
