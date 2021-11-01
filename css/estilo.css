@@ -515,7 +515,9 @@ header {
     height: 2.5rem;
     font-family: var(--fonte-action);
     color: #fff;
-    background-color: #a044ff;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
     border: none;
     padding: 0.5rem;
     font-size: 1.1rem;
@@ -527,4 +529,106 @@ header {
     background-color: #9c39ff;
     opacity: 0.6;
     ;
+}
+
+.sesso-orcamento {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bg3.jpg);
+    object-fit: cover;
+}
+
+.orcamento-wrapper {
+    width: 60%;
+    height: 80%;
+    background: #fff;
+    opacity: 0.9;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0.0.0.0.8);
+    position: relative;
+}
+
+.orcamento-wrapper h1 {
+    position: absolute;
+    top: -3.5rem;
+    left: 2rem;
+    color: #fff;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    font-family: var(--fonte-primary);
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0.0.0.0.8);
+}
+
+.sesso-orcamento form {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    background-color: #fff;
+    align-items: center;
+}
+
+.sesso-orcamento label {
+    font-family: var(--fonte-secundary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sesso-orcamento input[type="number"] {
+    font-family: var(--fonte-secundary);
+    width: 6rem;
+    height: 3rem;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+    border: 0.2rem solid #afa9a9;
+    padding: 0.3rem;
+    background: #fff;
+    outline: #f5f5f5;
+    opacity: 1;
+}
+
+.sesso-orcamento input[type="radio"] {
+    width: 1.5rem;
+    margin-left: 2rem;
+}
+
+.sesso-orcamento input[type="range"] {
+    width: 20rem;
+    margin-left: 2rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+}
+
+.btn-orcamento {
+    width: 10rem;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+    opacity: 1;
+    color: #f5f5f5;
+    font-family: var(--fonte-action);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    grid-column: 2;
+    cursor: pointer;
+}
+
+.btn-orcamento:hover {
+    opacity: 0.8;
 }

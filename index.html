@@ -172,7 +172,7 @@
                 </div>
             </div>
         </section>
-        <div class="sessao-contato">
+        <section class="sessao-contato">
             <div class="contato-wrapper">
                 <div class="contato-left">
                     <img src="img/contato.jpg" alt="contato img">
@@ -196,7 +196,32 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="sesso-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça seu orçamento</h1>
+                <form action="">
+                    <label for="quant">Quantidade</label>
+                    <input type="number" min="1" class="quant" id="quant">
+                    <label for="js">Preciso de script Javascript</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label for="">Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <label for="layout">Preciso de um Layout&nbsp;</label>
+                            <input type="radio" id="layout-sim" name="layout">
+                        </div>
+                        <div>
+                            <label for="layout-sim">Não Preciso de Layout</label>
+                            <input type="radio" id="layout-nao" name="layout">
+                        </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" min="1" max="20" id="prazo" name="prazo">
+                    <button class="btn-form btn-orcamento" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
     </div>
 
 </body>
