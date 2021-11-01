@@ -683,3 +683,27 @@ footer {
     opacity: 0.8;
     transform: scale(1.1);
 }
+
+.link-top {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: #ffff;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+    border-radius: 20rem;
+    transition: all ease-in-out 0.5s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.link-top:hover {
+    background: #6d2d9b;
+    background: -webkit-linear-gradient(to right, #972fff, #6d2d9b);
+    background: linear-gradient(to right, #972fff, #6d2d9b);
+    opacity: 0.8;
+    transform: scale(1.1);
+}
