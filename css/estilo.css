@@ -632,3 +632,54 @@ header {
 .btn-orcamento:hover {
     opacity: 0.8;
 }
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background: #272727;
+}
+
+.footer-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-content p {
+    color: #ffff;
+    font-family: var(--fonte-primary);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-list i {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 0.2rem;
+    padding: 1rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+    border-radius: 2rem;
+    transition: all ease-in-out 0.5s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.social-list i:hover {
+    background: #6d2d9b;
+    background: -webkit-linear-gradient(to right, #972fff, #6d2d9b);
+    background: linear-gradient(to right, #972fff, #6d2d9b);
+    opacity: 0.8;
+    transform: scale(1.1);
+}
