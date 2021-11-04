@@ -707,3 +707,11 @@ footer {
     opacity: 0.8;
     transform: scale(1.1);
 }
+
+.valor {
+    display: flex;
+}
+
+.valor h3 {
+    margin-left: 0.5rem;
+}

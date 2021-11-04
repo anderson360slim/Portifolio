@@ -216,8 +216,13 @@
                             <input type="radio" id="layout-nao" name="layout">
                         </div>
                     </div>
-                    <label for="prazo">Prazo</label>
-                    <input type="range" min="1" max="20" id="prazo" name="prazo">
+                    <label for="prazo" id="labelPrazo">Prazo Semanas</label>
+                    <input type="range" min="1" max="10" id="prazo" value="10" name="prazo">
+                    <label for="">Valor</label>
+                    <div class="valor">
+                        <label for="">R$</label>
+                        <h3 id="atualizapreco">0.00</h3>
+                    </div>
                     <button class="btn-form btn-orcamento" type="submit">Enviar</button>
                 </form>
             </div>
