@@ -20,7 +20,7 @@ function atualizaPreco() {
     const incluirLayuot = document.querySelector("#layout-sim").checked
     const prazo = document.querySelector("#prazo").value
 
-    var preco = 100.00 * quant;
+    var preco = 200.00 * quant;
     if (temJs) preco *= 1.2;
     if (incluirLayuot) preco += 500.00;
     let taxaurgencia = 1 - prazo * 0.1;
